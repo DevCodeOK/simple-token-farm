@@ -40,13 +40,22 @@ npx hardhat node
 4.2. En otra terminal, desplegar los contratos:
 npx hardhat run scripts/deploy.ts --network localhost
 
-# Estructura del proyecto
+## Estructura del proyecto
 ├─ contracts/
+
 │   ├─ DAppToken.sol
+
 │   ├─ LPToken.sol
+
 │   └─ TokenFarm.sol
+
 ├─ scripts/
+
 │   └─ deploy.ts
+
 ├─ hardhat.config.ts
+
 ├─ package.json
+
 └─ README.md
+
